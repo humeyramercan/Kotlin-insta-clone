@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape"
+
+    >
+
+    <TextView
+        android:id="@+id/recyclerEMailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape2"
+        android:fontFamily="@font/abril_fatface"
+        android:padding="5dp"
+        android:text="test"
+        android:textColor="#4203CF"
+        android:textSize="20dp"></TextView>
+
+    <ImageView
+        android:id="@+id/recyclerImageView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/reyclerExplanationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:padding="5dp"
+        android:background="@drawable/shape2"
+        android:text="test"
+        android:textColor="#E62962FF"
+        android:textSize="23dp"></TextView>
+
+    <TextView
+        android:id="@+id/recyclerDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="5dp"
+        android:paddingEnd="5dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/purple_200"
+        android:text="test"
+        android:textSize="18dp"></TextView>
+</LinearLayout>
